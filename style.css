@@ -1,3 +1,57 @@
+html,
 body {
 	height: 100%;
+}
+
+a.navbar-brand {
+	background-color:#339966;
+	font-size: 40px;
+	color: white;
+ }
+
+a.navbar, 
+a.navbar-default,
+a.navbar-header,
+a.container {
+	font-color: white;
+}
+
+p {
+	line-height: 200%;
+	font-size: 18px;
+}
+.panel-title {
+ 	color:#339966;
+ 	text-align: center;
+ 	font-size: 24px;
+ }
+
+ .container {
+ 	background: feathers.png;
+ }
+ .page-header {
+ 	color: #339966;
+ }
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+        /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+      /* Set the fixed height of the footer here */
+#push,
+#footer {
+   height: 20px;
+}
+
+p.text-muted {
+	background-color: #666666;
+   	text-align: center;
+   	color: #cccccc;
+   	padding: 10px;
+	border-top: solid 5px #339966;
+	font-size: 12px;
 }
