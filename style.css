@@ -6,14 +6,10 @@ body {
 a.navbar-brand {
 	background-color:#339966;
 	font-size: 40px;
-	color: white;
- }
+	 }
 
-a.navbar, 
-a.navbar-default,
-a.navbar-header,
-a.container {
-	font-color: white;
+.navbar-default .navbar-brand {
+    color: white;
 }
 
 p {
@@ -45,6 +41,9 @@ p {
 #push,
 #footer {
    height: 20px;
+}
+.btn-defaultbutton {
+	background: #339966;
 }
 
 p.text-muted {
